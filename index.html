@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>大型圖片瀏覽器</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
+</head>
+<body>
+    <div class="image-viewer-container">
+        <div id="image-viewer" class="image-viewer">
+            <!-- 圖片分片將在此動態加載 -->
+        </div>
+        <div class="controls">
+            <button id="zoom-in" title="放大"><i class="fas fa-search-plus"></i></button>
+            <button id="zoom-out" title="縮小"><i class="fas fa-search-minus"></i></button>
+            <button id="reset" title="重設"><i class="fas fa-sync-alt"></i></button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
