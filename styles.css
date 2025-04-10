@@ -10,6 +10,7 @@ body {
     height: 100%;
     width: 100vw;
     position: fixed; /* 避免iOS Safari的橡皮筋效果 */
+    background-color: black;
 }
 
 .image-viewer-container {
